@@ -10,10 +10,7 @@ import jakarta.servlet.http.HttpServletRequest;
 
 @Controller
 public class MyNewController {
-	@GetMapping("/login")
-	public String getForm() {
-		return "EmployeeLogin.jsp";
-	}
+	
 	
 	@PostMapping("/leaveType")
 	public ModelAndView empLogin(HttpServletRequest req, ModelAndView view) {
